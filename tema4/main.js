@@ -8,14 +8,14 @@
 
  
 
- let Jane Smith = nume;
- var $12.450 = suma;
- let Toyota Yaris = masina;
- var money = bani;
- let (is a lot of money) = propozitie1;
- let in her bank account = propozitie2;
+ let herName = 'Jane Smith';
+ var sum = '$12,450';
+ let masina = 'Toyota Yaris';
+ var money = 'bani';
+ let propozitie1 = 'is a lot of money';
+ let propozitie2 = ' in her bank account';
  
- console.log(nume + ' has' + suma + propozitie2);
+ console.log(herName + ' has ' + sum + propozitie2);
 
 
 
