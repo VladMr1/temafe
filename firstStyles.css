@@ -1,0 +1,223 @@
+h1 {
+    color: green;
+}
+
+#headsecondpage{
+width: 300px;
+height: 300px;
+
+color:blue;
+}
+
+
+.patrate {
+    background-color: cadetblue;
+    border-radius: 3%;
+    margin: 80px;
+    height: 250px;
+    width: 250px;
+    color:rgb(239, 235, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 7px;
+    border: blanchedalmond;
+    border-width: 10px;
+    
+
+    
+}
+
+
+#TITLU {
+    padding-top: 120px;
+    position: relative;
+    letter-spacing: 6px;
+    border-radius: 2%;
+    font-size: 200px;
+    
+    height: 150px;
+    width: 1000px;
+    
+    color: #0e3742;
+    text-transform: uppercase;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70;
+    outline: none;
+    animation: animate 5s linear infinite;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+    {
+        color: #0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+       0 0 20px #03bcf4,
+       0 0 40px #03bcf4,
+       0 0 80px #03bcf4,
+       0 0 160px #03bcf4;
+    }
+        
+}
+
+#coloana1{
+    display: flex;
+    font-size: 20px;
+    
+    height: 800px;
+    width: 200px;
+    background-image: url(gri.jpg);
+    text-align: center;
+    gap: 100px;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.5s;
+    font-family:sans-serif;
+}
+.pcoloana1:hover{
+    transform: scale(1.3);
+}
+
+#coloana2{
+    display: flex;
+    font-size: 20px;
+    color: cornsilk;
+    height: 800px;
+    width: 200px;
+    background-image: url(gri.jpg);
+    text-align: center;
+    gap: 100px;
+    justify-content: center;
+    flex-direction: column;  
+    transition: 0.5s;
+    font-family:sans-serif;
+}
+
+.pcoloana2:hover{
+    transform: scale(1.3);
+}
+
+
+
+#divulprincipal{
+    background-image: url(divspace.jpg) ;
+    display: flex;
+    align-self: center;
+    background-color: rgb(109, 112, 107);
+    height: 600px;
+    width: 1600px;   
+    align-items: center;
+    
+}
+
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    background-image: url(spacewide.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 50%;
+}
+
+#divulpentrucoloanasidivulprincipal{
+display: flex;
+gap: 600px;
+
+}
+
+
+.patrate{
+    border-radius: 8%;
+    display: flex;
+    background-image: url(galaxypatrate.jpeg) ;
+    justify-content: center;
+    padding-top: 30px;
+    transition: 1s;
+    display: flex;
+    align-items: column;
+    flex-wrap: wrap;
+}
+.patrate:hover{
+            transform: scale(1.3);
+}
+#patrate1{
+    background-image: url(capsule.jpg); 
+     width: 210px;
+     height: 190px; 
+}
+
+#patrate2{
+    background-image: url(rocket.jpg); 
+     width: 120px;
+     height: 210px; 
+}
+
+#patrate3{
+    background-image: url(crew.jpg); 
+    width: 230px;
+    height: 160px; 
+}
+
+
+#patrate4{
+    background-image: url(launch.jpg); 
+    width: 220px;
+    height: 160px; 
+
+
+}
+
+#spanprincipal{ 
+   display:flex;
+   justify-content: center;
+   gap: 10px;
+   gap: 10px 20px; /* row-gap column gap */
+   row-gap: 10px;
+   column-gap: 20px;
+   height: 150;
+   flex-wrap:wrap;
+   color: white;
+   width: 809px;
+   align-self: center;
+   
+
+}
+
+.spanx{
+width: 150.25px;
+display:flex;
+justify-content:center;
+border:none;
+margin:0px ;
+padding:0px;
+font-size: 12px;
+
+}
+
+#navbar{
+background-color: silver;
+font-family:sans-serif;
+    height: 40px;
+    width: 3200px;
+    
+}
+
+nav ul{
+
+    list-style: none;
+}
+
+nav li{
+
+    display: inline-block;
+    margin-right: 70px;
+}
