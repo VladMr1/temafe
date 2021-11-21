@@ -22,6 +22,7 @@ $12,450 is a lot of money for a Toyota Yaris.*/
         console.log(herName + plans + car );
         console.log(herName + will + sum + ' to buy a ' + car);
         console.log(sum + ' ' + sentence1 + ' for a ' + car);
+        console.log(' ');
  
  
  
@@ -38,6 +39,7 @@ Jane Smith will use her $12,450 to buy a Toyota Yaris.*/
         console.log(herName + plans + car );
         console.log(herName + ' has ' + sum + sentence2);
         console.log(herName + will + sum + ' to buy a ' + car);
+        console.log(' ');
 
 /* Jane Smith plans to buy a Toyota Yaris.
 $12,450 is a lot of money for a Toyota Yaris.
@@ -50,6 +52,7 @@ $12,450 is a lot of money.*/
         console.log(herName + will + sum + ' to buy a ' + car);
         console.log(herName + ' has ' + sum + sentence2);
         console.log(sum + ' ' +  sentence1);
+        console.log(' ');
 
 
 
