@@ -1,21 +1,20 @@
+#popupParent {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 #maindiv {
     display: flex;
-    align-items: center;
-    margin-top: 300px;
-    margin-left: 700px
-
-
+    justify-content: center;
 }
 
 
-#popup{
-    position: fixed;
-    top: 70px;
-    bottom: 100px;
-    left: 1000px;
-    right: 70px;
-    height: 200px;
-    width: 510px;
+#popup {
+    height: 100px;
+    width: 50px;
     background-color: seashell;
     border-style: solid;
 }
