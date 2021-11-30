@@ -1,0 +1,40 @@
+#maindiv {
+    display: flex;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: 700px
+
+
+}
+
+
+#popup{
+    position: fixed;
+    top: 70px;
+    bottom: 100px;
+    left: 1000px;
+    right: 70px;
+    height: 200px;
+    width: 510px;
+    background-color: seashell;
+    border-style: solid;
+}
+
+.maindivs{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(168, 150, 127);
+    padding-left: 3px;
+    margin-left: 10px;
+}
+
+.popupHeader{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.headerClose {
+    padding-right: 5px;
+    padding-top: 2px;
+    cursor: pointer;
+}
