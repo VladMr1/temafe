@@ -30,8 +30,8 @@ closeButton.addEventListener('click', function() {
     document.getElementById("p22").innerHTML = c;
 
     //moving the divstrawberries content
-    var d = document.getElementsByClassName("s").innerHTML;
-    document.getElementsByClassName("s2").innerHTML = d;
+    var d = document.getElementById("c").innerHTML;
+    document.getElementById("c2").innerHTML = d;
 
     // moving the ullist content
      var e = document.getElementById("ullist").innerHTML;
