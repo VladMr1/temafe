@@ -39,10 +39,10 @@
 
 let arataaxiosulcucapsule = function(functiaarataaxiosulcucapsule){
 let datelecapsulelor = functiaarataaxiosulcucapsule.response;
-let primacapsula = datelecapsulelor[0]
+let primacapsula = datelecapsulelor
 
 
-  let ca = document.getElementById('c1').innerHTML = ((datelecapsulelor[0].name),(dateleechipaj[0].agency));
+  let ca = document.getElementById('c1').innerHTML = ((datelecapsulelor.name),(datelecapsulelor[0].agency));
 
   let cb = document.getElementById("c2").innerHTML = (datelecapsulelor[1].name);
 
@@ -60,7 +60,7 @@ let primacapsula = datelecapsulelor[0]
 
   let ci = document.getElementById("c9").innerHTML = (datelecapsulelor[8].name);
 
-  let cj = document.getElementById("c10").innerHTML = ((datelecapsulelor[9].name),(dateleechipaj[9].agency));
+  let cj = document.getElementById("c10").innerHTML = (datelecapsulelor[9].name);
 
   let ck = document.getElementById("c11").innerHTML = (datelecapsulelor[10].name);
 
