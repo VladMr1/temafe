@@ -2,6 +2,18 @@ th{
     background-color: rgb(204, 202, 198);
 }
 
+td{
+    background-color: rgb(233, 233, 35);
+}
+
+#div1 {
+background-color: lightpink;
+}
 table {
     border-radius: 3%;
+}
+
+
+body{
+    background-color: lightgoldenrodyellow;
 }

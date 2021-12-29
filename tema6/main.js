@@ -25,9 +25,6 @@ document.getElementById(id).innerHTML = capsuleText;
 for (let i = 0; i < 10; i = i + 1) {
   renderOneCapsule(i);
 }
-
- // let ca = document.getElementById('c1').innerHTML = ((datelecapsulelor.name),(datelecapsulelor[0].agency));
-
 };
 
 axios.get('https://api.spacexdata.com/v4/capsules').then(arataaxiosulcucapsule);

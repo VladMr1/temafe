@@ -1,25 +1,27 @@
 
 let launchesAxios = function(launchesAxiosFunction){
-    let dataLaunches = launchesAxiosFunction.data;
-    let idLaunches = launchesAxiosFunction.id;
-    let flightNumberLaunches = launchesAxiosFunction.flight_number;
-    dataLaunches.id = document.getElementById('launches1').innerHTML;
-
-    document.getElementById('launches').innerHTML = idLaunches + '- ' + flightNumberLaunches;
-
-};
+let dataLaunches = launchesAxiosFunction.data;
 
 let renderOneCapsule = function(index) {
-    let id = 'launches' + (index + 1);
-    let capsulesText = idLaunches[index].id + ': ' + idLaunches[index].flight_number;
-    document.getElementById(id).innerHTML = capsulesText;
+let id = 'launches' + (index + 1);
+let capsulesId = dataLaunches[index].id;
+let capsulesFlightNumber = dataLaunches[index].flight_number;
+let shipsID = dataLaunches.ships;
+let ships =shipsID.lenght;
+document.getElementById('shipsTD').innerHTML = ships;
+document.getElementById(id).innerHTML = capsulesId;
+document.getElementById('launches1').innerHTML = capsulesFlightNumber;
+
+
+}
+
+
+for (let i = 0; i < 10; i = i + 1) {
+    renderOneCapsule(i);
+  }
 
 };
-
-
-
-
-
+  
 
 
 
