@@ -18,7 +18,7 @@ let arataaxiosulcucapsule = function(functiaarataaxiosulcucapsule) {
   
 let renderOneCapsule = function(index) {
 let id = 'c' + (index + 1);
-let capsuleText = datelecapsulelor[index].name + ': ' + datelecapsulelor[index].serial;
+let capsuleText = datelecapsulelor[index].id + ': ' + datelecapsulelor[index].serial;
 document.getElementById(id).innerHTML = capsuleText;
 };
 
