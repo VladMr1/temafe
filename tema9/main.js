@@ -1,19 +1,22 @@
 
-let launchesAxios = function(launchesAxiosFunction){
-let dataLaunches = launchesAxiosFunction.data;
+let launchesAxios = function(response) {
+  let dataLaunches = response.data;
+  let theTable = document.getElementById('theTable');
 
-let renderOneCapsule = function(index) {
-let idd = 'launches' + (index + 1);
-let capsulesId = dataLaunches[index].id + ': ' + dataLaunches[index].flight_number;
-//let shipsID = dataLaunches.ships;
-//let ships =shipsID.lenght;
+  let renderOneCapsule = function(index) {
+    let launch = dataLaunches[index];
 
-//document.getElementById('shipsTD').innerHTML = ships;
-document.getElementById(idd).innerHTML = capsulesId;
-//document.getElementById('launches1').innerHTML = capsulesFlightNumber;
-}
+    let newRow = theTable.insertRow();
+    let idCell = newRow.insertCell();
+    let fNumberCell = newRow.insertCell();
+    let shipsCell = newRow.insertCell();
 
-for (let i = 0; i < 10; i = i + 1) {
+    idCell.innerHTML = launch.id;
+    fNumberCell.innerHTML = launch.flight_number;
+    shipsCell.innerHTML = launch.ships.length;
+  }
+
+  for (let i = 0; i < dataLaunches.length; i = i + 1) {
     renderOneCapsule(i);
   }
 
