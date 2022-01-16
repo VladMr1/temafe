@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <h1 id="cerinta">(Creeati o pagina asemanatoare cu cea de la crew dar cu alte date in fereastra de popup)</h1>
+        <title>SpaceX Info Site - Crew</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="crew/crew.css">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="crew/crewInit.js" defer></script>
+        <script src="main.js" defer></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <h1>SpaceX Info Site - Crew &#x1F601;</h1>
+        </div>
+        <div id="menu">
+            <a href="index.html">Home</a>
+            <a href="launches.html">Launches</a>
+            <a class="selected" href="crew.html">Crew</a>
+        </div>
+        <div id="content">
+            <div id="crewTile" class="contentTile">
+                <div class="contentTileCore"></div>
+            </div>
+        </div>
+        <div id="crewPopup" class="popup">
+            <div class="popupHeader">
+                <span class="headerClose">x</span>
+            </div>
+            <div class="popupContent">
+                <div id="nasaCol"></div>
+                <div id="spacexCol"></div>
+            </div>
+        </div>
+    </body>
+</html>
